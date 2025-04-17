@@ -69,7 +69,8 @@ if __name__ == "__main__":
         await idle()
 
     asyncio.get_event_loop().run_until_complete(main())
-    # ------------ Flask server to prevent sleep ------------
+
+# ------------ Flask server to prevent sleep ------------
 from flask import Flask
 from threading import Thread
 
